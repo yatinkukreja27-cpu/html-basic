@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopEase - Your Online Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f9;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .products {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      width: 250px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    iframe {
+      display: block;
+      margin: 30px auto;
+      border: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🛍️ ShopEase - Your One Stop Online Store</h1>
+    <p>Find the best deals on your favorite products!</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#video">Video</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="home">
+    <h2>Welcome to ShopEase</h2>
+    <p><b>ShopEase</b> brings you the best products with the best offers. Browse through our collection and enjoy smooth online shopping.</p>
+  </div>
+
+  <div class="container" id="products">
+    <h2>🛒 Featured Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/250x200.png?text=Smartphone" alt="Smartphone">
+        <h3>Smartphone</h3>
+        <p><b>₹25,999</b></p>
+        <p><u>Fast Delivery</u></p>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/250x200.png?text=Headphones" alt="Headphones">
+        <h3>Wireless Headphones</h3>
+        <p><b>₹4,499</b></p>
+        <p><u>Noise Cancelling</u></p>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/250x200.png?text=Laptop" alt="Laptop">
+        <h3>Laptop</h3>
+        <p><b>₹59,999</b></p>
+        <p><u>1 Year Warranty</u></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="video">
+    <h2>🎬 Watch Our Promo Video</h2>
+    <p>Get to know how <b>ShopEase</b> makes shopping easy and fun!</p>
+    <!-- Embedded YouTube Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title="ShopEase Promo Video" allowfullscreen></iframe>
+  </div>
+
+  <footer id="contact">
+    <p>📞 Contact Us: support@shopease.com | ☎️ +91 98765 43210</p>
+    <p>&copy; 2025 ShopEase. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
